@@ -99,7 +99,7 @@ void vosettime()
   //day, weekday, month, century(1=1900, 0=2000), year(0-99)
   rtc.setDate(15, 5, 4, 0, 16);
   //hr, min, sec
-  rtc.setTime(15, 0, 50);
+  rtc.setTime(16, 55, 50);
 }
 
 void leddisplay(int num)    // 将花样字模对应到端口显示
