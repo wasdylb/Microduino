@@ -20,6 +20,7 @@ void loop() {
   if (KeyA.read()==SHORT_PRESS) { //当读取到开关按下时
     sta = !sta; //反转布尔变量值
   }
+  
   if (sta) { //当布尔变量为真时
     ColorLED.setPixelColor(0, ColorLED.Color(255, 0, 0)); //彩灯显示红色
     ColorLED.show();  //显示彩灯效果
